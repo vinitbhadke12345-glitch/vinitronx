@@ -11,7 +11,7 @@ export default function App() {
     }}>
 
       <img 
-        src="/logo.png" 
+        src="logo.png"
         alt="logo"
         style={{ width: "140px", marginBottom: "20px" }}
       />
