@@ -5,10 +5,30 @@ export default function App() {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      background: "black",
-      color: "white"
+      background: "#0A0A0A",
+      color: "white",
+      flexDirection: "column"
     }}>
-      <h1>🚀 Vinitronx Live Successfully!</h1>
+
+      <img 
+        src="/logo.png" 
+        alt="logo"
+        style={{ width: "140px", marginBottom: "20px" }}
+      />
+
+      <h1 style={{
+        fontSize: "32px",
+        background: "linear-gradient(90deg,#00F0FF,#7B61FF)",
+        WebkitBackgroundClip: "text",
+        color: "transparent"
+      }}>
+        Vinitronx
+      </h1>
+
+      <p style={{ opacity: 0.6 }}>
+        Build. Earn. Automate with AI 🚀
+      </p>
+
     </div>
   );
 }
